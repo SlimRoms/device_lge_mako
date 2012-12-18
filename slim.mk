@@ -17,6 +17,15 @@ $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
+# Inherit device settings
+$(call inherit-product, vendor/slim/config/common_nexus.mk)
+
+# Inherit led flash settings
+$(call inherit-product, vendor/slim/config/common_ledflash.mk)
+
+PRODUCT_COPY_FILES +=  \
+    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
 PRODUCT_NAME := slim_mako
