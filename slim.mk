@@ -2,7 +2,7 @@
 $(call inherit-product, vendor/slim/config/gsm.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := Nexus4
+PRODUCT_RELEASE_NAME := mako
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
