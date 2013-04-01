@@ -1,2 +1,0 @@
-# Default to LTE/GSM/WCDMA Network Mode
-ro.telephony.default_network=9
