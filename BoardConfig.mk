@@ -35,7 +35,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/lge/mako
-TARGET_KERNEL_CONFIG := mako_defconfig
+TARGET_KERNEL_CONFIG := slim_mako_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro/bin/arm-linux-gnueabihf-
 
 BOARD_KERNEL_BASE := 0x80200000
