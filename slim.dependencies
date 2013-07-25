@@ -2,11 +2,11 @@
  {
    "repository": "SlimRoms/proprietary_vendor_lge",
    "target_path": "vendor/lge",
-   "branch": "jb4.2"
+   "branch": "jb4.3"
  },
  {
    "repository": "SlimRoms/kernel_lge_mako",
    "target_path": "kernel/lge/mako",
-   "branch": "jb4.2"
+   "branch": "jb4.3"
  }
 ]
