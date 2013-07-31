@@ -1,12 +1,22 @@
 [
  {
-   "repository": "SlimRoms/proprietary_vendor_lge",
+   "repository":  "SlimRoms/proprietary_vendor_lge",
    "target_path": "vendor/lge",
-   "branch": "jb4.3"
+   "branch":      "jb4.3"
  },
  {
-   "repository": "SlimRoms/kernel_lge_mako",
+   "repository":  "SlimRoms/proprietary_vendor_qcom",
+   "target_path": "vendor/qcom",
+   "branch":      "jb4.3"
+ },
+ {
+   "repository":  "SlimRoms/proprietary_vendor_broadcom",
+   "target_path": "vendor/broadcom",
+   "branch":      "jb4.3"
+ },
+ {
+   "repository":  "SlimRoms/kernel_lge_mako",
    "target_path": "kernel/lge/mako",
-   "branch": "jb4.3"
+   "branch":      "jb4.3"
  }
 ]
