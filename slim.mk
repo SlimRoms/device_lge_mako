@@ -23,9 +23,6 @@ $(call inherit-product, vendor/slim/config/common_nexus.mk)
 # Inherit led flash settings
 $(call inherit-product, vendor/slim/config/common_ledflash.mk)
 
-PRODUCT_COPY_FILES +=  \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
 PRODUCT_NAME := slim_mako
