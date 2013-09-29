@@ -37,7 +37,7 @@ TARGET_NO_BOOTLOADER := true
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/lge/mako
 TARGET_KERNEL_CONFIG := slim_mako_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.8/bin/arm-linux-gnueabihf-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro/bin/arm-linux-gnueabihf-
 
 # Use JWR66Y kernel compatibility fix
 TARGET_USE_JWR66Y := true
