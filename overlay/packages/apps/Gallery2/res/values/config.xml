@@ -17,8 +17,7 @@
 <!-- Camera app resources that may need to be customized
      for different hardware or product builds. -->
 <resources>
-    <!-- The camera removes the focus modes by default when touch-to-focus
-         exists. Use this option to change that behavior -->
-    <bool name="wantsFocusModes">true</bool>
+    <!-- Calls a continues focus mode needed by most devices -->
+    <bool name="continuousFocusNeedsAutoFocusCall">false</bool>
 
 </resources>
