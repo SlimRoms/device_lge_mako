@@ -1,0 +1,22 @@
+[
+ {
+   "repository":  "SlimRoms/proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "branch":      "kk4.4"
+ },
+ {
+   "repository":  "SlimRoms/proprietary_vendor_qcom",
+   "target_path": "vendor/qcom",
+   "branch":      "kk4.4"
+ },
+ {
+   "repository":  "SlimRoms/proprietary_vendor_broadcom",
+   "target_path": "vendor/broadcom",
+   "branch":      "kk4.4"
+ },
+ {
+   "repository":  "SlimRoms/device_lge_mako-kernel",
+   "target_path": "device/lge/mako-kernel",
+   "branch":      "kk4.4"
+ }
+]
