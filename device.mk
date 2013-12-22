@@ -29,7 +29,8 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 PRODUCT_PACKAGES := \
-	lights.mako
+	lights.mako \
+	Torch
 
 PRODUCT_PACKAGES += \
 	charger_res_images \
