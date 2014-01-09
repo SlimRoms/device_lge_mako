@@ -17,6 +17,6 @@
 <!-- Camera app resources that may need to be customized
      for different hardware or product builds. -->
 <resources>
-    <!-- Calls a continues focus mode needed by most devices -->
-    <bool name="continuousFocusNeedsAutoFocusCall">false</bool>
+    <!-- Continues focus mode needs autofocus call -->
+    <bool name="continuousFocusNeedsAutoFocusCall">true</bool>
 </resources>
