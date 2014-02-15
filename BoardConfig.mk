@@ -36,7 +36,7 @@ TARGET_NO_BOOTLOADER := true
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/lge/mako
 TARGET_KERNEL_CONFIG := slim_mako_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.8-13.06/bin/arm-linux-gnueabihf-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
 
 BOARD_KERNEL_BASE := 0x80200000
 BOARD_KERNEL_PAGESIZE := 2048
