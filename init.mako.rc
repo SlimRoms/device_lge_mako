@@ -241,6 +241,11 @@ on post-fs-data
     write /sys/devices/system/cpu/cpufreq/interactive/min_sample_time 40000
     write /sys/devices/system/cpu/cpufreq/interactive/sampling_down_factor 100000
 
+    write /sys/module/cpu_boost/parameters/boost_ms 20
+    write /sys/module/cpu_boost/parameters/sync_threshold 1728000
+    write /sys/module/cpu_boost/parameters/input_boost_freq 1497600
+    write /sys/module/cpu_boost/parameters/input_boost_ms 40
+
 on charger
     # Enable Power modes and set the CPU Freq Sampling rates
     write /sys/module/rpm_resources/enable_low_power/L2_cache 1
