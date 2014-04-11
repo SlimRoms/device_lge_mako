@@ -213,6 +213,9 @@ on post-fs-data
     # adjust vibrator amplitude
     write /sys/class/timed_output/vibrator/amp 70
 
+    # Set read ahead to 512k
+    write /sys/block/mmcblk0/bdi/read_ahead_kb 512
+
     # Enable Power modes and set the CPU Freq Sampling rates
     write /sys/module/rpm_resources/enable_low_power/L2_cache 1
     write /sys/module/rpm_resources/enable_low_power/pxo 1
