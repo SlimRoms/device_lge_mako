@@ -116,6 +116,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml \
     device/lge/mako/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
 
+# Add init.d file to disable stock mpdecision
+PRODUCT_COPY_FILES += \
+	device/lge/mako/01mpdecision:system/etc/init.d/01mpdecision
+
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.opengles.version=196608
 

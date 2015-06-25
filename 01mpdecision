@@ -1,0 +1,5 @@
+#!/system/bin/sh
+#
+echo 0 > /sys/kernel/msm_mpdecision/conf/enabled
+echo 0 > /sys/kernel/msm_mpdecision/conf/boost_enabled
+echo 0 > /sys/kernel/msm_mpdecision/conf/scroff_single_core
