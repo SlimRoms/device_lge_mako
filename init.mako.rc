@@ -202,6 +202,9 @@ on post-fs-data
     # LED On/Off synchronization
     chown system system /sys/class/leds/red/device/lock
 
+    # Slim kernel config permissions
+    chmod 0700 /system/bin/init.slim.kernel.sh
+
     # communicate with mpdecision and thermald
     mkdir /dev/socket/mpdecision 2770 root system
 
@@ -463,3 +466,10 @@ on property:sys.perf.profile=2
 
 # on property:gsm.sim.state=READY
 #    start diag_mdlog
+
+# Start SlimMako kernel configuration
+service slimmako-kernel /system/bin/sh /system/bin/init.slim.kernel.sh
+     class late_start
+     user root
+     group root system
+     oneshot
