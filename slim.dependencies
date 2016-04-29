@@ -1,0 +1,10 @@
+[
+ {
+   "repository": "SlimRoms/kernel_lge_mako",
+   "target_path": "kernel/lge/mako"
+ },
+ {
+   "repository": "SlimRoms/android_external_stlport",
+   "target_path": "external/stlport"
+ }
+]
