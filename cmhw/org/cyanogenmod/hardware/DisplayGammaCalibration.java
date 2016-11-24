@@ -20,7 +20,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
 
-import org.cyanogenmod.hardware.util.FileUtils;
+import org.slim.utils.FileUtils;
 
 import java.io.File;
 
